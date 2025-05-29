@@ -9,6 +9,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Badge } from "@/components/ui/badge"
+import Link from "next/link"
 
 export default function Header() {
   return (
@@ -123,33 +124,33 @@ export default function Header() {
       <div className="border-t">
         <div className="container mx-auto px-4">
           <nav className="flex h-12 items-center space-x-8 overflow-x-auto">
-            <a
-              href="#"
+            <Link
+              href="/hotels"
               className="whitespace-nowrap text-sm font-medium text-green-600 border-b-2 border-green-600 pb-3"
             >
               Hotels
-            </a>
-            <a href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
+            </Link>
+            <Link href="/things-to-do" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
               Things to do
-            </a>
-            <a href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
+            </Link>
+            <Link href="/restaurants" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
               Restaurants
-            </a>
-            <a href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
+            </Link>
+            <Link href="/flights" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
               Flights
-            </a>
-            <a href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
+            </Link>
+            <Link href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
               Vacation Rentals
-            </a>
-            <a href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
+            </Link>
+            <Link href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
               Cruises
-            </a>
-            <a href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
+            </Link>
+            <Link href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
               Rental Cars
-            </a>
-            <a href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
+            </Link>
+            <Link href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
               Travel Forums
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
