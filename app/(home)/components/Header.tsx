@@ -142,10 +142,10 @@ export default function Header() {
             <Link href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
               Vacation Rentals
             </Link>
-            <Link href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
+            <Link href="/cruises" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
               Cruises
             </Link>
-            <Link href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
+            <Link href="/rentals" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
               Rental Cars
             </Link>
             <Link href="#" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 pb-3">
