@@ -319,7 +319,6 @@ export default function RentalCarsPage() {
                             <p className="text-xs text-gray-600">per day</p>
                           </div>
                         </div>
-
                         <div className="flex flex-wrap gap-2 mb-4">
                           {car.features.map((feature) => (
                             <Badge key={feature} variant="secondary" className="text-xs">
